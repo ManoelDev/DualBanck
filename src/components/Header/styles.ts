@@ -18,8 +18,13 @@ export const HeaderContainer = styled.div`
     color: #172765;
 
     span {
+      display: flex;
       font-size: 12px;
-      line-height: 20px;
+      line-height: 26px;
+
+      img {
+        margin-left: 16px;
+      }
     }
 
     p {

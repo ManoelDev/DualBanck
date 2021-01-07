@@ -25,15 +25,62 @@ export const Container = styled.div`
     flex-direction: row;
 
     div {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      width: 36px;
-      height: 36px;
-      background: linear-gradient(89.96deg, #622ee5 0.06%, #172765 99.94%);
-      border-radius: 18px;
-      color: white;
     }
+  }
+`;
+
+export const ItemHeader = styled.div`
+  display: flex;
+  flex-direction: row;
+  margin-left: 32px;
+`;
+
+export const ItemTag = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  background: linear-gradient(89.96deg, #622ee5 0.06%, #172765 99.94%);
+  border-radius: 18px;
+  color: white;
+`;
+
+export const ItemTag2 = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  background: linear-gradient(135deg, #778899 0%, #172765 100%);
+  border-radius: 18px;
+  color: white;
+`;
+
+export const ItemTag3 = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  background: linear-gradient(135deg, #ff354e 0%, #172765 100%);
+  border-radius: 18px;
+  color: white;
+`;
+
+export const ItemDescription = styled.div`
+  flex-direction: column;
+  margin-left: 16px;
+  span {
+    display: flex;
+    font-size: 14px;
+    color: #172765;
+    img {
+      margin-left: 16px;
+    }
+  }
+  p {
+    color: #69d531;
   }
 `;
 

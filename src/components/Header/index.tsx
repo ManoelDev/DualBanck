@@ -12,6 +12,7 @@ import logoImg from '../../assets/images/logo.svg';
 import chatImg from '../../assets/icons/ChatText.svg';
 import calendarImg from '../../assets/icons/Calendar.svg';
 import bellImg from '../../assets/icons/Bell.svg';
+import eyeOffImg from '../../assets/icons/eye-off.svg';
 
 const useStyles = makeStyles(() =>
   createStyles({
@@ -63,7 +64,10 @@ const Header: React.FC = () => {
           <FormHelperText>Ag. 00005-1 C.C. 00000000000000000020-1</FormHelperText>
         </FormControl>
         <div className="saldo">
-          <span>Saldo</span>
+          <span>
+            Saldo
+            <img src={eyeOffImg} alt="Ocultar saldo" />
+          </span>
           <p>R$ 40.000,00</p>
         </div>
       </HeaderLefth>
