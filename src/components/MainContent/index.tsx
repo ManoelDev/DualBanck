@@ -40,7 +40,7 @@ const MainContent: React.FC = () => {
   return (
     <Container>
       <ContentTop>
-        <span>Saldo bancarion</span>
+        <span>Saldo Bancário</span>
         <Button>
           <img src={printImg} alt="" />
         </Button>
@@ -75,7 +75,7 @@ const MainContent: React.FC = () => {
       <InputSalddoDisponivel>
         <img src={shieldImg} alt="" />
         <div>
-          <span>Sldo Disponivel</span>
+          <span>Saldo Disponivel</span>
           <p>R$40.000,00</p>
         </div>
         <IconEyeOff>
